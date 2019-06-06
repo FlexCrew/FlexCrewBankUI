@@ -2,9 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-<<<<<<< Updated upstream
-=======
+import { AppComponent } from './app.component'
 import { AccountListComponentComponent } from './account-list-component/account-list-component.component';
 import { CustomerFormComponentComponent } from './customer-form-component/customer-form-component.component';
 import { AccountFormComponentComponent } from './account-form-component/account-form-component.component';
@@ -14,13 +12,20 @@ import { WithDrawFormComponent } from './with-draw-form/with-draw-form.component
 import { BankStatementListComponent } from './bank-statement-list/bank-statement-list.component';
 import { BillFormComponent } from './bill-form/bill-form.component';
 import { BillListComponent } from './bill-list/bill-list.component';
-import { from } from 'rxjs';
 import { WithdrawService } from './Services/withdraw.service';
->>>>>>> Stashed changes
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AccountListComponentComponent,
+    CustomerFormComponentComponent,
+    AccountFormComponentComponent,
+    CustomerListComponentComponent,
+    DepositFormComponent,
+    WithDrawFormComponent,
+    BankStatementListComponent,
+    BillFormComponent,
+    BillListComponent
   ],
   imports: [
     BrowserModule,
